@@ -103,19 +103,6 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-//   const handleDeleteExpense = async (id) => {
-//     if (window.confirm('Are you sure you want to delete this expense?')) {
-//       try {
-//         await expenseAPI.delete(id);
-//         toast.success('Expense deleted successfully!');
-//         fetchExpenses();
-//       } catch (error) {
-//         toast.error('Failed to delete expense');
-//         console.error('Error deleting expense:', error);
-//       }
-//     }
-//   };
-
  const handleDeleteExpense = (id) => {
     setExpenseToDelete(id);
     setShowDeleteModal(true);
