@@ -122,8 +122,3 @@ This project is licensed under the MIT License.
 
 ✅ Author
 Developed as a MERN stack practice project for expense management.
-
-pgsql
-Copy code
-
-Would you like me to also add **example screenshots (placeholders)** in the README so it looks more professional on GitHub, or k
